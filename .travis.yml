@@ -3,7 +3,8 @@ language:
 python:
   - "3.7"
   - "3.8"
-  - "nightly"
+  - "nightly" # nightly build
+# Commands to run tests
 scripts:
   - python -m doctest counter.py
   - pytest
