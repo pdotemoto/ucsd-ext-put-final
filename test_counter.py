@@ -3,7 +3,7 @@ import pytest
 
 
 def test_counter_inc():
-    assert counter.inc(5) == 5
+    assert counter.inc(4) == 5
 
 
 def test_counter_dec():
