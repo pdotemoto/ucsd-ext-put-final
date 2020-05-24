@@ -7,3 +7,5 @@ python:
 scripts:
   - python -m doctest counter.py
   - pytest
+env:
+  - PYTHONPATH=$PYTHONPATH:$TRAVIS_BUILD_DIR
